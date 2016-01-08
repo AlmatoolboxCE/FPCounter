@@ -1,5 +1,5 @@
 # FPCounter
-Automatic calculation of FP based on the code in an SCM
+Automatic calculation of FP based on the code stored in a SCM
 
 This tool allows you to count the function points of a project stored on a SCM.
 Currently the tool works by connecting to one or more instances of MS Team Foundation Server, to one or more collection. 
