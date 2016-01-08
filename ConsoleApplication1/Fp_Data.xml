@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fp>
+  <linguaggio name="ABAP (SAP)" data="28"/>
+  <linguaggio name="Access" data="36" />
+  <linguaggio name="Ada" data="154" />
+  <linguaggio name="Advantage" data="38" />
+  <linguaggio name="APS" data="86" />
+  <linguaggio name="ASP" data="51" />
+  <linguaggio name="Assembler" data="119" />
+  <linguaggio name="Brio" data="14" />
+  <linguaggio name="C++" data="50" />
+  <linguaggio name="C" data="97" />
+  <linguaggio name="C#" data="54" />
+  <linguaggio name="Clipper" data="40" />
+  <linguaggio name="COBOL" data="61" />
+  <linguaggio name="Cognos Impromptu Scripts" data="47" />
+  <linguaggio name="Cross System Products (CSP)" data="20" />
+  <linguaggio name="ColdFusion" data="68" />
+  <linguaggio name="Cool:Gen/IEF" data="32" />
+  <linguaggio name="Culprit" data="51" />
+  <linguaggio name="Datastage" data="71" />
+  <linguaggio name="DBase III" data="60" />
+  <linguaggio name="DBase IV" data="52" />
+  <linguaggio name="Easytrieve+" data="33" />
+  <linguaggio name="Excel" data="209" />
+  <linguaggio name="Focus" data="43" />
+  <linguaggio name="FORTRAN" data="90" />
+  <linguaggio name="FoxPro" data="36" />
+  <linguaggio name="HTML" data="34" />
+  <linguaggio name="Ideal" data="66" />
+  <linguaggio name="Informix" data="42" />
+  <linguaggio name="J2EE" data="46" />
+  <linguaggio name="Java" data="53" />
+  <linguaggio name="JavaScript" data="47" />
+  <linguaggio name="JCL" data="62" />
+  <linguaggio name="JSP" data="59" />
+  <linguaggio name="KML" data="50" /> 
+  <linguaggio name="LINC II" data="29" /> 
+  <linguaggio name="Lotus Notes" data="23" /> 
+  <linguaggio name="Maestro" data="30" /> 
+  <linguaggio name="Mantis" data="71" /> 
+  <linguaggio name="Mapper" data="69" /> 
+  <linguaggio name="Natural" data="40" /> 
+  <linguaggio name=".NET" data="57" /> 
+  <linguaggio name="Netron/CAP" data="296" /> 
+  <linguaggio name="Openroad" data="39" /> 
+  <linguaggio name="Oracle" data="37" /> 
+  <linguaggio name="Oracle Dev 2K" data="35" /> 
+  <linguaggio name="Pacbase" data="42" /> 
+  <linguaggio name="PeopleSoft" data="37" /> 
+  <linguaggio name="Perl" data="24" /> 
+  <linguaggio name="PL/1" data="64" /> 
+  <linguaggio name="PL/SQL" data="37" /> 
+  <linguaggio name="Powerbuilder" data="26" /> 
+  <linguaggio name="Powerhouse" data="63" /> 
+  <linguaggio name="REXX" data="77" /> 
+  <linguaggio name="RPG II/III" data="61" />
+  <linguaggio name="Sabretalk" data="70" />
+  <linguaggio name="SAS" data="38" />
+  <linguaggio name="Siebel Tools" data="13" />
+  <linguaggio name="Slogan" data="75" />
+  <linguaggio name="Smalltalk" data="28" />
+  <linguaggio name="SQL" data="21" />
+  <linguaggio name="SQL Forms" data="11" />
+  <linguaggio name="Taskmate" data="45" />
+  <linguaggio name="Uniface" data="61" />
+  <linguaggio name="VB.Net" data="52" />
+  <linguaggio name="VBScript" data="38" />
+  <linguaggio name="Visual Basic" data="42" />
+  <linguaggio name="VPF" data="95" />
+  <linguaggio name="Web Scripts" data="44" />
+</fp>

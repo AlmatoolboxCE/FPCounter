@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<progetti>
+  <!--<progetto name="Scrum1.2" main="" />
+  <progetto name="Scrum 1.1" main="$/Scrum 1.1/Scrum,$/Scrum 1.1/BuildProcessTemplates" />-->
+  <progetto name="TT-Almaviva" main="$/TT-Almaviva/Main/AlmavivaTT" CISoftware="AlmaToolBox" />
+</progetti>

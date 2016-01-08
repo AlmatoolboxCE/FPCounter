@@ -1,0 +1,757 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Witd:WITD application="Work item type editor" version="1.0" xmlns:Witd="http://schemas.microsoft.com/VisualStudio/2008/workitemtracking/typedef">
+  <WORKITEMTYPE name="QAReport">
+    <DESCRIPTION>WI per controllo Qualita</DESCRIPTION>
+    <GLOBALLISTS>
+      <GLOBALLIST name="Commessa">
+        <LISTITEM value="non disponibile" />
+        <LISTITEM value="ALM di Gruppo (22V-Y07900.000F)" />
+        <LISTITEM value="Migrazione Trasporti (224978-002)" />
+      </GLOBALLIST>
+      <GLOBALLIST name="CIS">
+        <LISTITEM value="non disponibile" />
+        <LISTITEM value="AlmaToolBox.Acna" />
+        <LISTITEM value="AlmaToolBox.ISW_KPI" />
+        <LISTITEM value="AlmaToolbox" />
+        <LISTITEM value="AlmaToolbox.ConsAppQualita" />
+        <LISTITEM value="AlmaToolbox.Tools" />
+        <LISTITEM value="ANAGRAFICA UNICA" />
+        <LISTITEM value="Carpooling e Social Network" />
+        <LISTITEM value="AUA" />
+        <LISTITEM value="AUA.AUA_APP" />
+        <LISTITEM value="AUA.AUA_WEB" />
+        <LISTITEM value="CDG_MPLS" />
+        <LISTITEM value="GRACaricamentoLoader" />
+        <LISTITEM value="SEM" />
+        <LISTITEM value="Sistemi Informativi" />
+        <LISTITEM value="Sistemi Informativi.Sito AlmavivA" />
+        <LISTITEM value="SvcBus.SO115" />
+        <LISTITEM value="WF_Vigilanza" />
+        <LISTITEM value="WS_INMATICA" />
+        <LISTITEM value="SIA" />
+        <LISTITEM value="SIA.ODLNEW" />
+        <LISTITEM value="SIA.CAR" />
+        <LISTITEM value="Sito AlmavivA" />
+        <LISTITEM value="Sito AlmavivA.SP.ApproveRejectMultipleItems" />
+        <LISTITEM value="Sito AlmavivA.SP.CambioLayoutMultiplo" />
+        <LISTITEM value="Sito AlmavivA.SP_Correlati" />
+        <LISTITEM value="Sito AlmavivA.SP_DoveSiamo" />
+        <LISTITEM value="Sito AlmavivA.SP_Flash" />
+        <LISTITEM value="Sito AlmavivA.SP_FlashVideoPlayer" />
+        <LISTITEM value="Sito AlmavivA.SP_FooterMenu" />
+        <LISTITEM value="Sito AlmavivA.SP.headImg" />
+        <LISTITEM value="Sito AlmavivA.SP_Languages" />
+        <LISTITEM value="Sito AlmavivA.SP_Navigation" />
+        <LISTITEM value="Sito AlmavivA.SP_News" />
+        <LISTITEM value="Sito AlmavivA.SP_SearchBox" />
+        <LISTITEM value="Sito AlmavivA.SP_ShortCuts" />
+        <LISTITEM value="TT-Almaviva" />
+        <LISTITEM value="CDI" />
+        <LISTITEM value="Context Aware" />
+        <LISTITEM value="WeAui" />
+        <LISTITEM value="SICE" />
+        <LISTITEM value="Dublinet" />
+        <LISTITEM value="EPROT" />
+        <LISTITEM value="TT-Almaviva.TT-ALMAVIVA DB" />
+        <LISTITEM value="TT-Almaviva.WEB TT-ALMAVIVA" />
+        <LISTITEM value="Bico" />
+        <LISTITEM value="Daisy" />
+        <LISTITEM value="ESTER" />
+        <LISTITEM value="GIPS" />
+        <LISTITEM value="OPC" />
+        <LISTITEM value="OPC 2.0" />
+        <LISTITEM value="SISS1" />
+        <LISTITEM value="WEFID" />
+        <LISTITEM value="WEFID2" />
+        <LISTITEM value="ICBPI" />
+        <LISTITEM value="Riconti" />
+        <LISTITEM value="Pagamenti" />
+        <LISTITEM value="HealthSOAF" />
+        <LISTITEM value="HealthSOAF.HealthSOAF.java" />
+        <LISTITEM value="HealthSOAF.HealthSOAF.NET" />
+        <LISTITEM value="HealthSOAF.HealthSOAF.postgresql" />
+        <LISTITEM value="TT-Almaviva.Almaviva TT Mailer" />
+        <LISTITEM value="SCIAMANO" />
+        <LISTITEM value="SIA.GestioneAccount" />
+        <LISTITEM value="SIA.GestioneDeroghe" />
+        <LISTITEM value="SIA.DichiarazioneCodiceEtico" />
+        <LISTITEM value="SIA.GestioneCDS" />
+        <LISTITEM value="SIA.GestioneCellulari" />
+        <LISTITEM value="SIA.GestioneCellulariReport" />
+        <LISTITEM value="SIA.PianificazioneFerie" />
+        <LISTITEM value="SIA.ReportGiustificazioni" />
+        <LISTITEM value="AlmaToolbox.PortaleIsw" />
+        <LISTITEM value="SIA.GestioneContenzioso" />
+      </GLOBALLIST>
+      <GLOBALLIST name="Builds - AlmaToolBox">
+        <LISTITEM value="RegexToolsBuild_20121126.1" />
+        <LISTITEM value="RegexToolsBuild_20121126.2" />
+        <LISTITEM value="RegexToolsBuild_20121126.3" />
+        <LISTITEM value="RegexToolsBuild_20121126.4" />
+        <LISTITEM value="RegexToolsBuild_20121126.5" />
+        <LISTITEM value="MainLineJob_20121127.1" />
+        <LISTITEM value="Dev CI and Test_20121127.1" />
+        <LISTITEM value="RegexToolsBuild_20121127.1" />
+        <LISTITEM value="Dev CI and Test_20121127.2" />
+        <LISTITEM value="Dev CI and Test_20121127.3" />
+        <LISTITEM value="Dev CI and Test_20121127.4" />
+        <LISTITEM value="Dev CI and Test_20121127.5" />
+        <LISTITEM value="Dev CI and Test RiusoSW_20121127.1" />
+        <LISTITEM value="Dev CI and Test Tools-Regex_20121127.1" />
+        <LISTITEM value="Dev CI and Test Tools-Regex_20121127.2" />
+        <LISTITEM value="Dev CI and Test RiusoSW_20121127.2" />
+        <LISTITEM value="Dev CI and Test Tools-Regex_20121127.3" />
+        <LISTITEM value="Dev CI and Test Tools-Regex_20121127.4" />
+        <LISTITEM value="Dev CI and Test Tools-Regex_20121127.5" />
+        <LISTITEM value="Dev CI and Test Tools-Regex_20121127.6" />
+        <LISTITEM value="Dev CI and Test Tools-Regex_20121127.7" />
+        <LISTITEM value="Dev CI and Test Tools-Regex_20121127.8" />
+        <LISTITEM value="Dev CI and Test Tools-Regex_20121127.9" />
+        <LISTITEM value="Dev CI and Test Tools-Regex_20121127.10" />
+        <LISTITEM value="MainLineJob_20121128.1" />
+        <LISTITEM value="TestSonarRegexTool_20121128.1" />
+        <LISTITEM value="TestSonarRegexTool_20121128.2" />
+        <LISTITEM value="TestSonarRegexTool_20121128.3" />
+        <LISTITEM value="TestSonarRegexTool_20121128.4" />
+        <LISTITEM value="TestSonarRegexTool_20121128.5" />
+        <LISTITEM value="TestSonarRegexTool_20121128.6" />
+        <LISTITEM value="32" />
+        <LISTITEM value="TestSonarRegexTool_20121128.7" />
+        <LISTITEM value="TestSonarRegexTool_20121128.8" />
+        <LISTITEM value="TestSonarRegexTool_20121128.9" />
+        <LISTITEM value="Main's build all_20121128.1" />
+        <LISTITEM value="Sonar - Tools - Regex_20121128.1" />
+        <LISTITEM value="Sonar - Tools - Regex_20121129.1" />
+        <LISTITEM value="Main's build all_20121129.1" />
+        <LISTITEM value="Main's build all_20121130.1" />
+        <LISTITEM value="my first build_20121203.1" />
+        <LISTITEM value="my first build_20121203.2" />
+        <LISTITEM value="my first build_20121203.3" />
+        <LISTITEM value="my first build_20121203.4" />
+        <LISTITEM value="build all mainLine_20121204.1" />
+        <LISTITEM value="CI for BuildMaker_20121204.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20121204.1" />
+        <LISTITEM value="CI for AcnaGlobalListBatch_20121204.1" />
+        <LISTITEM value="CI for AcnaGlobalListBatch_20121204.2" />
+        <LISTITEM value="CI for AcnaGlobalListBatch_20121204.3" />
+        <LISTITEM value="build all mainLine_20121204.2" />
+        <LISTITEM value="build all mainLine_20121204.3" />
+        <LISTITEM value="CI for AcnaWebHiber_20121204.2" />
+        <LISTITEM value="build all mainLine_20121204.4" />
+        <LISTITEM value="build all mainLine_20121204.5" />
+        <LISTITEM value="CI for AcnaWebHiber_20121204.3" />
+        <LISTITEM value="CI for AcnaWebHiber_20121204.4" />
+        <LISTITEM value="CI for AlmaStyleFix_20121204.1" />
+        <LISTITEM value="CI for BuildMaker_20121204.2" />
+        <LISTITEM value="CI for BuildMaker_20121204.3" />
+        <LISTITEM value="CI for BuildMaker_20121204.4" />
+        <LISTITEM value="CI for BuildMaker_20121204.5" />
+        <LISTITEM value="CI for BuildMaker_20121204.6" />
+        <LISTITEM value="CI for BuildMaker_20121204.7" />
+        <LISTITEM value="CI for BuildMaker_20121204.8" />
+        <LISTITEM value="build all mainLine_20121204.6" />
+        <LISTITEM value="CI for AcnaGlobalListBatch_20121204.4" />
+        <LISTITEM value="build all mainLine_20121205.1" />
+        <LISTITEM value="harvest build_20121205.1" />
+        <LISTITEM value="build all mainLine_20121206.1" />
+        <LISTITEM value="harvest build_20121206.1" />
+        <LISTITEM value="harvest build_20121206.2" />
+        <LISTITEM value="CI for BuildMaker_20121206.1" />
+        <LISTITEM value="CI for BuildMaker_20121206.2" />
+        <LISTITEM value="Sonar for BuildMaker_20121206.1" />
+        <LISTITEM value="Sonar for BuildMaker_20121206.2" />
+        <LISTITEM value="CI for BuildMaker_20121206.3" />
+        <LISTITEM value="CI for AlmaStyleFix_20121206.1" />
+        <LISTITEM value="CI for BuildMaker_20121206.4" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20121207.1" />
+        <LISTITEM value="Sonar for Regex tool_20121207.1" />
+        <LISTITEM value="build all mainLine_20121207.1" />
+        <LISTITEM value="Sonar for BuildMaker_20121207.1" />
+        <LISTITEM value="CI for BuildMaker_20121207.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20121207.2" />
+        <LISTITEM value="CI for AlmaStyleFix_20121207.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20121207.3" />
+        <LISTITEM value="CI for AlmaStyleFix_20121207.2" />
+        <LISTITEM value="CI for AcnaGlobalListBatch_20121207.1" />
+        <LISTITEM value="build all mainLine_20121210.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20121210.1" />
+        <LISTITEM value="Sonar for BuildMaker_20121210.1" />
+        <LISTITEM value="CI for BuildMaker_20121210.1" />
+        <LISTITEM value="CI for BuildMaker_20121210.2" />
+        <LISTITEM value="CI for BuildMaker_20121210.3" />
+        <LISTITEM value="build all mainLine_20121211.1" />
+        <LISTITEM value="Sonar for Regex tool_20121211.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20121211.1" />
+        <LISTITEM value="Sonar for BuildMaker_20121211.1" />
+        <LISTITEM value="CI for BuildMaker_20121211.1" />
+        <LISTITEM value="CI for BuildMaker_20121211.2" />
+        <LISTITEM value="CI for BuildMaker_20121211.3" />
+        <LISTITEM value="CI for BuildMaker_20121211.4" />
+        <LISTITEM value="CI for BuildMaker_20121211.5" />
+        <LISTITEM value="CI for BuildMaker_20121211.6" />
+        <LISTITEM value="CI for BuildMaker_20121211.7" />
+        <LISTITEM value="CI for BuildMaker_20121211.8" />
+        <LISTITEM value="CI for BuildMaker_20121211.9" />
+        <LISTITEM value="CI for BuildMaker_20121211.10" />
+        <LISTITEM value="139" />
+        <LISTITEM value="140" />
+        <LISTITEM value="141" />
+        <LISTITEM value="142" />
+        <LISTITEM value="143" />
+        <LISTITEM value="144" />
+        <LISTITEM value="Sonar for BuildMaker_20121211.2" />
+        <LISTITEM value="Sonar for BuildMaker_20121211.3" />
+        <LISTITEM value="Sonar for BuildMaker_20121211.4" />
+        <LISTITEM value="Sonar for BuildMaker_20121211.5" />
+        <LISTITEM value="Sonar for BuildMaker_20121211.6" />
+        <LISTITEM value="Sonar for BuildMaker_20121211.7" />
+        <LISTITEM value="Sonar for BuildMaker_20121211.8" />
+        <LISTITEM value="154" />
+        <LISTITEM value="155" />
+        <LISTITEM value="Sonar for BuildMaker_20121211.9" />
+        <LISTITEM value="Sonar for BuildMaker_20121211.10" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20121212.1" />
+        <LISTITEM value="Sonar for Regex tool_20121212.1" />
+        <LISTITEM value="Sonar for BuildMaker_20121212.1" />
+        <LISTITEM value="build all mainLine_20121212.1" />
+        <LISTITEM value="build all mainLine_20121212.2" />
+        <LISTITEM value="CI for BuildMaker_20121212.1" />
+        <LISTITEM value="CI for Regex tool_20121212.1" />
+        <LISTITEM value="CI for BuildMaker_20121212.2" />
+        <LISTITEM value="CI for AcnaGlobalListBatch_20121212.1" />
+        <LISTITEM value="Sonar for BuildMaker_20121213.1" />
+        <LISTITEM value="Sonar for Regex tool_20121213.1" />
+        <LISTITEM value="build all mainLine_20121213.1" />
+        <LISTITEM value="CI for AcnaGlobalListBatch_20121213.1" />
+        <LISTITEM value="CI for BuildMaker_20121213.1" />
+        <LISTITEM value="CI for ISW_KPI_20121213.1" />
+        <LISTITEM value="build all mainLine_20121214.1" />
+        <LISTITEM value="Sonar for BuildMaker_20121214.1" />
+        <LISTITEM value="CI for BuildMaker_20121214.1" />
+        <LISTITEM value="CI for SonarActivity_20121214.1" />
+        <LISTITEM value="CI for SonarActivity_20121214.2" />
+        <LISTITEM value="CI for AcnaGlobalListBatch_20121214.1" />
+        <LISTITEM value="Sonar for AcnaGlobalListBatch_20121214.1" />
+        <LISTITEM value="CI for Regex tool_20121214.1" />
+        <LISTITEM value="CI for AlmaStyleFix_20121214.1" />
+        <LISTITEM value="Sonar for AcnaGlobalListBatch_20121217.1" />
+        <LISTITEM value="Sonar for BuildMaker_20121217.1" />
+        <LISTITEM value="Sonar for ConsAppQualita_20121217.1" />
+        <LISTITEM value="build all mainLine_20121217.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20121217.1" />
+        <LISTITEM value="Sonar for Regex tool_20121217.1" />
+        <LISTITEM value="CI for BuildMaker_20121217.1" />
+        <LISTITEM value="CI for BuildMaker_20121217.2" />
+        <LISTITEM value="build all mainLine_20121218.1" />
+        <LISTITEM value="Sonar for BuildMaker_20121218.1" />
+        <LISTITEM value="CI for BuildMaker_20121218.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20121218.1" />
+        <LISTITEM value="CI for ISW_KPI_20121218.1" />
+        <LISTITEM value="CI for ISW_KPI_20121218.2" />
+        <LISTITEM value="CI for AcnaWebHiber_20121218.2" />
+        <LISTITEM value="build all mainLine_20121219.1" />
+        <LISTITEM value="Sonar for BuildMaker_20121219.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20121219.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20121219.2" />
+        <LISTITEM value="build all mainLine_20121220.1" />
+        <LISTITEM value="CI for AlmaStyleFix_20121220.1" />
+        <LISTITEM value="CI for ISW_KPI_20121220.1" />
+        <LISTITEM value="CI for ISW_KPI_20121220.2" />
+        <LISTITEM value="CI for ISW_KPI_20121220.3" />
+        <LISTITEM value="build all mainLine_20121221.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20121221.1" />
+        <LISTITEM value="CI for BuildMaker_20121221.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20121221.1" />
+        <LISTITEM value="build all mainLine_20121224.1" />
+        <LISTITEM value="Sonar for BuildMaker_20121224.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20130107.1" />
+        <LISTITEM value="build all mainLine_20130108.1" />
+        <LISTITEM value="Sonar for BuildMaker_20130108.1" />
+        <LISTITEM value="CI for BuildMaker_20130107.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20130108.1" />
+        <LISTITEM value="CI for ISW_KPI_20130108.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20130108.2" />
+        <LISTITEM value="CI for AcnaWebHiber_20130108.3" />
+        <LISTITEM value="build all mainLine_20130109.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20130109.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130109.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130109.2" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130109.3" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130109.4" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130109.5" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130109.6" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130109.7" />
+        <LISTITEM value="build all mainLine_20130110.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.2" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.3" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.4" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.5" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.6" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.7" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.8" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.9" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.10" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.11" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.12" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.13" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130110.14" />
+        <LISTITEM value="CI for AcnaGlobalListBatch_20130110.1" />
+        <LISTITEM value="build all mainLine_20130111.1" />
+        <LISTITEM value="Sonar for AcnaGlobalListBatch_20130111.1" />
+        <LISTITEM value="CI for AcnaGlobalListBatch_20130111.1" />
+        <LISTITEM value="build all mainLine_20130114.1" />
+        <LISTITEM value="Sonar for AcnaGlobalListBatch_20130114.1" />
+        <LISTITEM value="CI for BuildMaker_20130116.1" />
+        <LISTITEM value="288" />
+        <LISTITEM value="289" />
+        <LISTITEM value="Sonar for BuildMaker_20130116.1" />
+        <LISTITEM value="291" />
+        <LISTITEM value="292" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130116.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130116.2" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130116.3" />
+        <LISTITEM value="build all mainLine_20130117.1" />
+        <LISTITEM value="Sonar for BuildMaker_20130117.1" />
+        <LISTITEM value="CI for ISW_KPI_20130117.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130117.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20130117.1" />
+        <LISTITEM value="build all mainLine_20130118.1" />
+        <LISTITEM value="Harvest ACNA DB Deploy_20130118.1" />
+        <LISTITEM value="Harvest ACNA DB Deploy_20130118.2" />
+        <LISTITEM value="Harvest ACNA DB Deploy_20130118.3" />
+        <LISTITEM value="CI for BuildMaker_20130118.1" />
+        <LISTITEM value="build all mainLine_20130121.1" />
+        <LISTITEM value="Sonar for BuildMaker_20130121.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130121.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130121.2" />
+        <LISTITEM value="CI for BuildMaker_20130122.1" />
+        <LISTITEM value="build all mainLine_20130123.1" />
+        <LISTITEM value="Sonar for BuildMaker_20130123.1" />
+        <LISTITEM value="CI for BuildMaker_20130123.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130123.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130123.2" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130123.3" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130123.4" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130123.5" />
+        <LISTITEM value="325" />
+        <LISTITEM value="Harvest ACNA DB Deploy_20130123.1" />
+        <LISTITEM value="Sonar for BuildMaker_20130124.1" />
+        <LISTITEM value="build all mainLine_20130124.1" />
+        <LISTITEM value="CI for ReportProgettiICT_20130124.1" />
+        <LISTITEM value="CI for Intranet_KPI_20130124.1" />
+        <LISTITEM value="CI for BuildMaker_20130124.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20130124.1" />
+        <LISTITEM value="Sonar for BuildMaker_20130125.1" />
+        <LISTITEM value="Sonar for AcnaGlobalListBatch_20130125.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20130125.1" />
+        <LISTITEM value="Sonar for Regex tool_20130125.1" />
+        <LISTITEM value="Sonar for ConsAppQualita_20130125.1" />
+        <LISTITEM value="Sonar for AcnaWebHiber_20130125.1" />
+        <LISTITEM value="build all mainLine_20130125.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130125.1" />
+        <LISTITEM value="CI for ConsAppQualita_20130125.1" />
+        <LISTITEM value="Sonar for ConsAppQualita_20130128.1" />
+        <LISTITEM value="CI for Database_ACNA_20130129.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130129.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130129.2" />
+        <LISTITEM value="build all mainLine_20130130.1" />
+        <LISTITEM value="CI for BuildMaker_20130131.1" />
+        <LISTITEM value="Sonar for BuildMaker_20130201.1" />
+        <LISTITEM value="build all mainLine_20130201.1" />
+        <LISTITEM value="CI for BuildMaker_20130201.1" />
+        <LISTITEM value="build all mainLine_20130204.1" />
+        <LISTITEM value="Sonar for BuildMaker_20130204.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20130204.1" />
+        <LISTITEM value="CI for AlmaStyleFix_20130204.1" />
+        <LISTITEM value="CI for AlmaStyleFix_20130204.2" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20130204.2" />
+        <LISTITEM value="CI for AlmaStyleFix_20130204.3" />
+        <LISTITEM value="CI for AlmaStyleFix_20130204.4" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20130204.3" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20130204.4" />
+        <LISTITEM value="Sonar for AcnaWebHiber_20130204.1" />
+        <LISTITEM value="Sonar for AcnaWebHiber_20130204.2" />
+        <LISTITEM value="Sonar for AcnaWebHiber_20130204.3" />
+        <LISTITEM value="Sonar for BuildMaker_20130204.2" />
+        <LISTITEM value="CI for Regex tool_20130204.1" />
+        <LISTITEM value="Sonar for Regex tool_20130204.1" />
+        <LISTITEM value="CI for Regex tool_20130204.2" />
+        <LISTITEM value="Sonar for Regex tool_20130204.2" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20130205.1" />
+        <LISTITEM value="build all mainLine_20130205.1" />
+        <LISTITEM value="Sonar for Regex tool_20130205.1" />
+        <LISTITEM value="CI for Intranet_KPI_20130206.1" />
+        <LISTITEM value="CI for Regex tool_20130206.1" />
+        <LISTITEM value="Sonar for Regex tool_20130206.1" />
+        <LISTITEM value="CI for BuildingAgentToolsSetup_20130206.1" />
+        <LISTITEM value="Sonar for Regex tool_20130206.2" />
+        <LISTITEM value="CI for Intranet_KPI_20130206.2" />
+        <LISTITEM value="CI for BuildMaker_20130206.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20130206.1" />
+        <LISTITEM value="CI for Regex tool_20130206.2" />
+        <LISTITEM value="Sonar for BuildMaker_20130206.1" />
+        <LISTITEM value="CI for ReportProgettiICT_20130206.1" />
+        <LISTITEM value="CI for ReportProgettiICT_20130206.2" />
+        <LISTITEM value="build all mainLine_20130207.1" />
+        <LISTITEM value="Sonar for Regex tool_20130207.1" />
+        <LISTITEM value="Sonar for BuildMaker_20130207.1" />
+        <LISTITEM value="Sonar for AcnaWebHiber_20130207.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20130207.1" />
+        <LISTITEM value="Sonar for AcnaGlobalListBatch_20130207.1" />
+        <LISTITEM value="Sonar for ConsAppQualita_20130207.1" />
+        <LISTITEM value="CI for ReportProgettiICT_20130208.1" />
+        <LISTITEM value="CI for TFSUtilities_20130208.1" />
+        <LISTITEM value="CI for TFSUtilities_20130208.2" />
+        <LISTITEM value="CI for TFSUtilities_20130208.3" />
+        <LISTITEM value="CI for TFSUtilities_20130208.4" />
+        <LISTITEM value="CI for Regex tool_20130208.1" />
+        <LISTITEM value="build all mainLine_20130211.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20130212.1" />
+        <LISTITEM value="Sonar for ConsAppQualita_20130213.1" />
+        <LISTITEM value="Sonar for AcnaWebHiber_20130213.1" />
+        <LISTITEM value="Sonar for Regex tool_20130213.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20130213.1" />
+        <LISTITEM value="Sonar for BuildMaker_20130213.1" />
+        <LISTITEM value="Sonar for AcnaGlobalListBatch_20130213.1" />
+        <LISTITEM value="build all mainLine_20130213.1" />
+        <LISTITEM value="CI for AcnaWebHiber_20130213.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130213.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130213.2" />
+        <LISTITEM value="CI for BuildMaker_20130213.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130213.3" />
+        <LISTITEM value="CI for BuildMaker_20130213.2" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130213.4" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130213.5" />
+        <LISTITEM value="CI for BuildMaker_20130213.3" />
+        <LISTITEM value="Main for ConsAppQualita_20130214.1" />
+        <LISTITEM value="Main for WebGridWithCheckBox_20130214.1" />
+        <LISTITEM value="Sonar for AcnaWebHiber_20130214.1" />
+        <LISTITEM value="Main for BuildMaker_20130214.1" />
+        <LISTITEM value="Main for ISW_KPI_20130214.1" />
+        <LISTITEM value="Sonar for AcnaGlobalListBatch_20130214.1" />
+        <LISTITEM value="Main for AcnaWebHiber_20130214.1" />
+        <LISTITEM value="Main for TFSUtilities_20130214.1" />
+        <LISTITEM value="Main for Regex tool_20130214.1" />
+        <LISTITEM value="Main for BuildingAgentToolsSetup_20130214.1" />
+        <LISTITEM value="Sonar for ConsAppQualita_20130214.1" />
+        <LISTITEM value="Sonar for BuildMaker_20130214.1" />
+        <LISTITEM value="Sonar for Regex tool_20130214.1" />
+        <LISTITEM value="Main for AcnaGlobalListBatch_20130214.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20130214.1" />
+        <LISTITEM value="Main for TFSWebTextSearcher_20130214.1" />
+        <LISTITEM value="Main for AlmaStyleFix_20130214.1" />
+        <LISTITEM value="CI for AlmaStyleFix_20130219.1" />
+        <LISTITEM value="CI for BuildMaker_20130219.1" />
+        <LISTITEM value="Prova Parisi_20130221.1" />
+        <LISTITEM value="Prova Parisi_20130221.2" />
+        <LISTITEM value="CI for Builds_20130228.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130228.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130228.2" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130228.3" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130228.4" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130228.5" />
+        <LISTITEM value="Harvest BuildsWS Deploy on ACNA_20130228.1" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130228.6" />
+        <LISTITEM value="Harvest ACNA Web Deploy_20130228.7" />
+        <LISTITEM value="Sonar for AcnaWebHiber_20130228.1" />
+        <LISTITEM value="Sonar for AlmaStyleFix_20130228.1" />
+        <LISTITEM value="Main for Builds_20130301.1" />
+        <LISTITEM value="CI for Intranet_KPI_20130301.1" />
+        <LISTITEM value="CI for Intranet_KPI_20130301.2" />
+        <LISTITEM value="CI for Intranet_KPI_20130301.3" />
+        <LISTITEM value="CI for Intranet_KPI_20130305.1" />
+        <LISTITEM value="CI for Intranet_KPI_20130305.2" />
+        <LISTITEM value="CI for Intranet_KPI_20130305.3" />
+        <LISTITEM value="CI for Intranet_KPI_20130305.4" />
+        <LISTITEM value="CI for Intranet_KPI_20130305.5" />
+        <LISTITEM value="CI for Intranet_KPI_20130305.6" />
+        <LISTITEM value="CI for Intranet_KPI_20130305.7" />
+        <LISTITEM value="CI for Intranet_KPI_20130305.8" />
+        <LISTITEM value="CI for Intranet_KPI_20130305.9" />
+        <LISTITEM value="CI for Intranet_KPI_20130306.1" />
+        <LISTITEM value="CI for Intranet_KPI_20130306.2" />
+        <LISTITEM value="CI for ReportProgettiICT_20130319.1" />
+        <LISTITEM value="CI for ReportProgettiICT_20130322.1" />
+        <LISTITEM value="CI for ReportProgettiICT_20130322.2" />
+        <LISTITEM value="CI for ReportProgettiICT_20130322.3" />
+        <LISTITEM value="CI for ReportProgettiICT_20130328.1" />
+        <LISTITEM value="CI for ReportProgettiICT_20130506.1" />
+      </GLOBALLIST>
+      <GLOBALLIST name="Builds - AUA">
+        <LISTITEM value="HarvestTest_20121205.1" />
+        <LISTITEM value="harvest test_20121205.1" />
+        <LISTITEM value="72" />
+        <LISTITEM value="Harvest AUA WEB REL_20121206.1" />
+        <LISTITEM value="Harvest AUA WEB REL_20121206.2" />
+        <LISTITEM value="Harvest AUA WEB REL_20121206.3" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121206.1" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121206.2" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121207.1" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121207.2" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121207.3" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121207.4" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121207.5" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121207.6" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121207.7" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121210.1" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121210.2" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121210.3" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121210.4" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121210.5" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121213.1" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121213.2" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121213.3" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121217.1" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121217.2" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121219.1" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121219.2" />
+        <LISTITEM value="Harvest AUA Web Packaging_20121219.3" />
+        <LISTITEM value="211" />
+        <LISTITEM value="CI for AUA_APP_20121220.1" />
+        <LISTITEM value="CI for AUA_APP_20121221.1" />
+        <LISTITEM value="Harvest AUA App Packaging_20121221.1" />
+        <LISTITEM value="Harvest AUA App Packaging_20121221.2" />
+        <LISTITEM value="Harvest AUA App Packaging_20121221.3" />
+        <LISTITEM value="Harvest AUA App Packaging_20121221.4" />
+        <LISTITEM value="Harvest AUA App Packaging_20121221.5" />
+        <LISTITEM value="Harvest AUA App Packaging_20121221.6" />
+        <LISTITEM value="Harvest AUA App Packaging_20121221.7" />
+        <LISTITEM value="Harvest AUA App Packaging_20121221.8" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.1" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.2" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.3" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.4" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.5" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.6" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.7" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.8" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.9" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.10" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.11" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.12" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.13" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130107.14" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130108.1" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130108.2" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130108.3" />
+        <LISTITEM value="256" />
+        <LISTITEM value="Harvest AUA Web Packaging_20130123.1" />
+        <LISTITEM value="Harvest AUA Web Packaging_20130123.2" />
+        <LISTITEM value="Harvest AUA Web Packaging_20130123.3" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130123.1" />
+        <LISTITEM value="Harvest AUA DB Packaging_20130123.2" />
+        <LISTITEM value="Harvest AUA Web Packaging_20130123.4" />
+        <LISTITEM value="Harvest AUA Web Packaging_20130123.5" />
+        <LISTITEM value="330" />
+        <LISTITEM value="Harvest AUA Web Packaging_20130213.1" />
+        <LISTITEM value="Harvest AUA App Packaging_20130213.1" />
+        <LISTITEM value="Harvest AUA App Packaging_20130213.2" />
+        <LISTITEM value="441" />
+        <LISTITEM value="Harvest AUA App Packaging_20130220.1" />
+        <LISTITEM value="Harvest AUA App Packaging_20130220.2" />
+        <LISTITEM value="Harvest AUA App Packaging_20130221.1" />
+        <LISTITEM value="Harvest AUA App Packaging_20130221.2" />
+        <LISTITEM value="Harvest AUA App Packaging_20130221.3" />
+        <LISTITEM value="Harvest AUA App Packaging_20130221.4" />
+        <LISTITEM value="Harvest AUA App Packaging_20130221.5" />
+        <LISTITEM value="Harvest AUA App Packaging_20130222.1" />
+        <LISTITEM value="CI for AUA_APP_20130222.1" />
+        <LISTITEM value="Harvest AUA App Packaging_20130222.2" />
+        <LISTITEM value="Harvest AUA App Packaging_20130222.3" />
+        <LISTITEM value="Harvest AUA App Packaging_20130222.4" />
+        <LISTITEM value="Harvest AUA Web Packaging_20130222.1" />
+        <LISTITEM value="Harvest AUA Web Packaging_20130222.2" />
+        <LISTITEM value="460" />
+      </GLOBALLIST>
+      <GLOBALLIST name="Builds - TT-Almaviva">
+        <LISTITEM value="Main for AlmavivaTT_20130322.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130325.1" />
+        <LISTITEM value="Main for AlmavivaTTMailer_20130325.1" />
+        <LISTITEM value="CI for AlmavivaTT_20130327.1" />
+        <LISTITEM value="CI for AlmavivaTT_20130416.2" />
+        <LISTITEM value="CI for AlmavivaTTMailer_20130416.1" />
+        <LISTITEM value="CI for AlmavivaTT_20130416.1" />
+        <LISTITEM value="Main for AlmavivaTTMailer_20130417.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130417.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130418.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130418.2" />
+        <LISTITEM value="Main for AlmavivaTT_20130418.3" />
+        <LISTITEM value="Main for AlmavivaTT_20130418.4" />
+        <LISTITEM value="Main for AlmavivaTT_20130419.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130422.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130423.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130424.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130424.2" />
+        <LISTITEM value="Main for AlmavivaTT_20130424.3" />
+        <LISTITEM value="Main for AlmavivaTT_20130424.4" />
+        <LISTITEM value="Main for AlmavivaTT_20130424.5" />
+        <LISTITEM value="CI for AlmavivaTT_20130424.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130425.1" />
+        <LISTITEM value="515" />
+        <LISTITEM value="Main for AlmavivaTT_20130429.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130430.1" />
+        <LISTITEM value="518" />
+        <LISTITEM value="Main for AlmavivaTT_20130502.1" />
+        <LISTITEM value="520" />
+        <LISTITEM value="Main for AlmavivaTT_20130506.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130507.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130508.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130509.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130510.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130513.1" />
+        <LISTITEM value="Main for AlmavivaTT_20130514.1" />
+      </GLOBALLIST>
+      <GLOBALLIST name="Builds - SIA">
+        <LISTITEM value="Main for Sicu_IT_20130508.1" />
+        <LISTITEM value="Main for Report_DatiPianificati_TFS_20130508.1" />
+        <LISTITEM value="Main for CreazioneReport_20130508.1" />
+        <LISTITEM value="Main for Report_DatiPianificati_TFS_20130509.1" />
+        <LISTITEM value="Main for Sicu_IT_20130509.1" />
+        <LISTITEM value="Main for CreazioneReport_20130509.1" />
+      </GLOBALLIST>
+    </GLOBALLISTS>
+    <FIELDS>
+      <FIELD name="Title" refname="System.Title" type="String" reportable="dimension" />
+      <FIELD name="State" refname="System.State" type="String" reportable="dimension" />
+      <FIELD name="Revised Date" refname="System.RevisedDate" type="DateTime" reportable="detail" />
+      <FIELD name="Changed Date" refname="System.ChangedDate" type="DateTime" reportable="dimension" />
+      <FIELD name="ID" refname="System.Id" type="Integer" reportable="dimension" />
+      <FIELD name="Area ID" refname="System.AreaId" type="Integer" />
+      <FIELD name="Authorized As" refname="System.AuthorizedAs" type="String" syncnamechanges="true" />
+      <FIELD name="Rev" refname="System.Rev" type="Integer" reportable="dimension" />
+      <FIELD name="Changed By" refname="System.ChangedBy" type="String" syncnamechanges="true" reportable="dimension" />
+      <FIELD name="ControlloTask" refname="Almaviva.ControlloTask" type="String" />
+      <FIELD name="ControlloSprint" refname="Almaviva.ControlloSprint" type="String" />
+      <FIELD name="Reason" refname="System.Reason" type="String" reportable="dimension" />
+      <FIELD name="Assigned To" refname="System.AssignedTo" type="String" syncnamechanges="true" reportable="dimension" />
+      <FIELD name="Work Item Type" refname="System.WorkItemType" type="String" reportable="dimension" />
+      <FIELD name="Created Date" refname="System.CreatedDate" type="DateTime" reportable="dimension" />
+      <FIELD name="Created By" refname="System.CreatedBy" type="String" syncnamechanges="true" reportable="dimension" />
+      <FIELD name="Description" refname="System.Description" type="HTML" />
+      <FIELD name="History" refname="System.History" type="History" />
+      <FIELD name="Related Link Count" refname="System.RelatedLinkCount" type="Integer" />
+      <FIELD name="CISoftware" refname="Almaviva.CISoftware" type="String" reportable="dimension">
+        <ALLOWEDVALUES expanditems="true">
+          <GLOBALLIST name="CIS" />
+        </ALLOWEDVALUES>
+      </FIELD>
+      <FIELD name="Iteration Path" refname="System.IterationPath" type="TreePath" reportable="dimension" />
+      <FIELD name="Iteration ID" refname="System.IterationId" type="Integer" />
+      <FIELD name="External Link Count" refname="System.ExternalLinkCount" type="Integer" />
+      <FIELD name="Team Project" refname="System.TeamProject" type="String" reportable="dimension" />
+      <FIELD name="Hyperlink Count" refname="System.HyperLinkCount" type="Integer" />
+      <FIELD name="Attached File Count" refname="System.AttachedFileCount" type="Integer" />
+      <FIELD name="DataD" refname="Almaviva.DataD" type="DateTime" reportable="dimension" />
+      <FIELD name="DescrizioneHtml" refname="Almaviva.DescrizioneHtml" type="HTML" />
+      <FIELD name="Dev" refname="Almaviva.Dev" type="String" />
+      <FIELD name="Path" refname="Almaviva.Path" type="String" />
+      <FIELD name="AllChangeset" refname="Almaviva.AllChangeset" type="String" reportable="dimension" />
+      <FIELD name="NChangeset" refname="almaviva.NChangeset" type="String" reportable="dimension" />
+      <FIELD name="FP Totali" refname="Almaviva.FPTotali" type="Double" reportable="dimension" />
+      <FIELD name="Node Name" refname="System.NodeName" type="String" />
+      <FIELD name="Valore Totale" refname="Almaviva.ValoreTotale" type="Double" reportable="dimension" />
+      <FIELD name="ValoreCustom" refname="Almaviva.ValoreCustom" type="Double" reportable="dimension" />
+      <FIELD name="DescrizioneChange" refname="Almaviva.DescrizioneChange" type="HTML" />
+      <FIELD name="Rel" refname="Almaviva.Rel" type="String" />
+      <FIELD name="FP" refname="Almaviva.FP" type="Double" reportable="dimension" />
+      <FIELD name="Main" refname="Almaviva.Main" type="String" reportable="dimension" />
+      <FIELD name="Area Path" refname="System.AreaPath" type="TreePath" reportable="dimension" />
+    </FIELDS>
+    <WORKFLOW>
+      <STATES>
+        <STATE value="Open" />
+        <STATE value="Close" />
+      </STATES>
+      <TRANSITIONS>
+        <TRANSITION from="Open" to="Close">
+          <REASONS>
+            <DEFAULTREASON value="Cerimonia Effettuata" />
+          </REASONS>
+        </TRANSITION>
+        <TRANSITION from="" to="Open">
+          <REASONS>
+            <DEFAULTREASON value="New Cerimony" />
+          </REASONS>
+        </TRANSITION>
+      </TRANSITIONS>
+    </WORKFLOW>
+    <FORM>
+      <Layout>
+        <Group>
+          <Column PercentWidth="60">
+            <Control FieldName="System.Title" Type="FieldControl" Label="Titolo:" LabelPosition="Left" ReadOnly="True" />
+          </Column>
+          <Column PercentWidth="40">
+            <Control FieldName="Almaviva.DataD" Type="DateTimeControl" Label="Data:" LabelPosition="Left" ReadOnly="True" />
+          </Column>
+        </Group>
+        <Group>
+          <Column PercentWidth="60">
+            <Control FieldName="Almaviva.CISoftware" Type="FieldControl" Label="CI Software:" LabelPosition="Left" />
+          </Column>
+          <Column PercentWidth="40">
+            <Control FieldName="System.IterationPath" Type="WorkItemClassificationControl" Label="Iterazione:" LabelPosition="Left" />
+          </Column>
+        </Group>
+        <Group>
+          <Column PercentWidth="20">
+            <Control FieldName="Almaviva.Main" Type="FieldControl" Label="Controllo Main:" LabelPosition="Left" ReadOnly="True" />
+          </Column>
+          <Column PercentWidth="20">
+            <Control FieldName="Almaviva.Dev" Type="FieldControl" Label="Controllo Dev:" LabelPosition="Left" ReadOnly="True" />
+          </Column>
+          <Column PercentWidth="20">
+            <Control FieldName="Almaviva.Rel" Type="FieldControl" Label="Controllo Rel:" LabelPosition="Left" ReadOnly="True" />
+          </Column>
+          <Column PercentWidth="20">
+            <Control FieldName="Almaviva.ControlloTask" Type="FieldControl" Label="Controllo Task:" LabelPosition="Left" ReadOnly="True" />
+          </Column>
+          <Column PercentWidth="20">
+            <Control FieldName="Almaviva.ControlloSprint" Type="FieldControl" Label="Controllo Sprint:" LabelPosition="Left" ReadOnly="True" />
+          </Column>
+        </Group>
+        <Group>
+          <Column PercentWidth="50" />
+          <Column PercentWidth="30" />
+        </Group>
+        <Group>
+          <Column PercentWidth="100">
+            <TabGroup>
+              <Tab Label="Dati Fp">
+                <Group>
+                  <Column PercentWidth="50">
+                    <Control FieldName="Almaviva.FPTotali" Type="FieldControl" Label="Fp Totali:" LabelPosition="Left" ReadOnly="True" />
+                  </Column>
+                  <Column PercentWidth="50">
+                    <Control FieldName="Almaviva.ValoreTotale" Type="FieldControl" Label="Valore Totali:" LabelPosition="Left" ReadOnly="True" />
+                  </Column>
+                </Group>
+                <Group>
+                  <Column PercentWidth="50">
+                    <Control FieldName="Almaviva.FP" Type="FieldControl" Label="FP Almaviva:" LabelPosition="Left" ReadOnly="True" />
+                  </Column>
+                  <Column PercentWidth="50">
+                    <Control FieldName="Almaviva.ValoreCustom" Type="FieldControl" Label="Valore Almaviva:" LabelPosition="Left" ReadOnly="True" />
+                  </Column>
+                </Group>
+                <Control FieldName="Almaviva.DescrizioneHtml" Type="HtmlFieldControl" Label="" LabelPosition="Left" Dock="Fill" ReadOnly="True" MinimumSize="(0,200)" />
+              </Tab>
+              <Tab Label="ChangeSet">
+                <Group>
+                  <Column PercentWidth="100">
+                    <Control FieldName="Almaviva.AllChangeset" Type="FieldControl" Label="Nr. Changeset:" LabelPosition="Left" ReadOnly="True" />
+                  </Column>
+                  <Column PercentWidth="100">
+                    <Control FieldName="almaviva.NChangeset" Type="FieldControl" Label="Changeset senza WI:" LabelPosition="Left" ReadOnly="True" />
+                  </Column>
+                </Group>
+                <Control FieldName="Almaviva.DescrizioneChange" Type="HtmlFieldControl" Label="" LabelPosition="Left" Dock="Fill" ReadOnly="True" MinimumSize="(0,200)" />
+              </Tab>
+            </TabGroup>
+          </Column>
+        </Group>
+      </Layout>
+    </FORM>
+  </WORKITEMTYPE>
+</Witd:WITD>
